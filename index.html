@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Just to-do-list</title>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
+
 <body>
-  <div class="main-area">
-    <div class="logo">
-      <h1>JUST TO-DO-LIST</h1>
-    </div>
-    <div class="left-todo">
-      <input type="checkbox" name="todo1" id="">haha
-      <input type="checkbox" name="todo1" id="">haha
-      <input type="checkbox" name="todo1" id="">haha
-    </div>
-    <div class="rigth-todo-top">
-      <input type="checkbox" name="todo1" id="">haha
-      <input type="checkbox" name="todo1" id="">haha
-      <input type="checkbox" name="todo1" id="">haha
-
-    </div>
-    <div class="rigth-todo-bottom">
-
+  <div class="container">
+    <div class="main-area">
+      <div class="logo">
+        <h1>JUST TO-DO-LIST</h1>
+      </div>
+      <div class="input-field">
+        <input id="inputfield" type="text" placeholder="할 일을 입력해봐요!" >
+        <button id="addToDo">+</button>
+      </div>
+      <div class="to-do" id="toDoList">
+        
+      </div>
     </div>
   </div>
+<script src="./assets/scripts/main.js"></script>
 </body>
+
 </html>
