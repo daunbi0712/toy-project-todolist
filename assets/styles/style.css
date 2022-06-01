@@ -1,0 +1,41 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(26, 26, 30);
+}
+.container{
+  padding: 10%;
+}
+.main-area{
+  background-color: #6536ff;
+  /* width: 70%;
+  height: 70%; */
+  margin: 10% 15%; 
+  border: solid 5px red;
+  box-sizing: border-box;
+  text-align: center;
+}
+.logo{
+  /* margin: 0 0 3rem 0; */
+  padding: 0px 10% 20px 3%;
+  font-family: 'Oswald', sans-serif;
+  font-style: oblique;
+  color: rgb(255, 215, 38);
+  font-size: 2rem;
+}
+
+.left-todo{
+  width: 50%;
+  height: 300px;
+  float: left;
+  background-color: bisque;
+}
+.rigth-todo-top{
+  width: 50%;
+  height: 300px;
+  float: left;
+  background-color: yellow;
+}
